@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#card {
+    display: flex;
+    flex-direction: column;
+}
+.person{
+    display: inline-block;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    /* border-width: 4px; */
+    background-color: black;
+    color: whitesmoke;
+    padding: 1.2em;
+    margin: 2rem auto 1rem 1rem;
+    word-spacing: 3px;
+    font-size: 1.2em;
+    text-transform: capitalize;
+
+    
+}
+button{
+
+    background-color: cyan;
+    /* color: white; */
+    margin: 2em;
+    padding: 10px 25px;
+    font-size: 1.2em;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 5px;
+}
